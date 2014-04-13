@@ -1,0 +1,17 @@
+{
+  "name": "gyozui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "derby": "^0.5.16",
+    "hapi": "^4.0.0",
+    "jade": "^1.3.1",
+    "migawari": "^0.3.0"
+  }
+}
