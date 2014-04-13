@@ -2,7 +2,7 @@
   var $ = function(s){
     return document.querySelectorAll(s)
   }
-  var labs = $(".lab dummy")
+  var labs = $(".lab div")
   var cmp = Object.keys(labs).map(function(k){
     if(k == "length") return
     var elm = labs[k]
@@ -10,7 +10,8 @@
     var sl = elm.dataset["selector"]
 
     return {
-      cssText : window.getComputedStyle(elm).cssText,
+      //cssText : window.getComputedStyle(elm).cssText,
+      cl : window.getMatchedCSSRules(elm),
       selector : sl
     }
 

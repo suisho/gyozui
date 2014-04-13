@@ -1,9 +1,15 @@
 a{
-
+  color:red;
 }
 b{
+color:red;
 
 }
 a b{
+color:red;
+
+}
+div{
+color:red;
   
 }

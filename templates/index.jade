@@ -1,9 +1,11 @@
 html
+  style(type="text/css")=css
+
   body
     div.title
       |||||||||| Takigyo |||||||||||
     div.lab
       each item in labs
-        dummy(clas="takigyo" data-selector=item.selector)!=item.html
+        div(clas="takigyo" data-selector=item.selector)!=item.html
     div.result
     script(src="/static/client.js")
