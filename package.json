@@ -10,8 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "derby": "^0.5.16",
+    "flatten": "0.0.1",
+    "grunt": "^0.4.4",
     "hapi": "^4.0.0",
     "jade": "^1.3.1",
     "migawari": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-hapi": "^0.7.0",
+    "load-grunt-tasks": "^0.4.0",
+    "mocha": "^1.18.2"
   }
 }

@@ -1,3 +1,9 @@
 html
   body
+    div.title
+      |||||||||| Takigyo |||||||||||
     div.lab
+      each item in labs
+        dummy(clas="takigyo" data-selector=item.selector)!=item.html
+    div.result
+    script(src="/static/client.js")
